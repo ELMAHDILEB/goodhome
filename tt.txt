@@ -1,0 +1,112 @@
++-------------------+        +-------------------+
+|  ServiceDeNettoyage |        |     Réservation    |
++-------------------+        +-------------------+
+|  identifiant (PK)  |        |  identifiant (PK)  |
+|  nom              |   1    |  service_id (FK)   |
+|  description      |------->|  date_et_heure     |
+|  tarif            |        +-------------------+
++-------------------+
+         |   1
+         |   |
+         |   |
++-------------------+
+|     Utilisateur    |
++-------------------+
+|  identifiant (PK)  |
+|  nom               |
+|  email             |
++-------------------+
+         |
+         | N
+         |
++-------------------+
+|   Prestataire     |
++-------------------+
+|  identifiant (PK) |
+|  nom              |
+|  email            |
++-------------------+
+
+
+
+ServiceDeNettoyage
++-------------------+
+|  identifiant (PK)  |
+|  nom              |
+|  description      |
+|  tarif            |
++-------------------+
+
+Réservation
++-------------------+
+|  identifiant (PK)  |
+|  service_id (FK)   |
+|  date_et_heure     |
++-------------------+
+
+Utilisateur
++-------------------+
+|  identifiant (PK)  |
+|  nom               |
+|  email             |
++-------------------+
+
+Prestataire
++-------------------+
+|  identifiant (PK)  |
+|  nom               |
+|  email             |
++-------------------+
+
+
+
+
+Figure 1 : MCD
+Figure 3: Logo HTML
+Figure 4: Logo CSS
+Figure 5: Logo JavaScript
+Figure 6: Logo Visual Studio Code
+Figure 7: Logo Figma
+Figure 8: Header (en-tête) du site web
+Figure 9: Bouton "EMPLOYMENT" dans le header
+Figure 10: Page principale (Main Page) du site web
+Figure 11: Section des services du site web
+Figure 12: Section de l'équipe (Team) du site web
+Figure 13: Section du blog du site web
+Figure 14: Section des avis clients (What Our Client Say) du site web
+Figure 15: Footer (pied de page) du site web
+
+
+
+Table des matières	4
+Introduction Générale	1
+Table d’abréviation	2
+Liste des figures	3
+Chapitre I : Cadre Général Du Projet :	4
+1.	Introduction	4
+2.	Objectif du projet :	4
+3.	Besoins fonctionnels :	4
+4.	Conclusion	5
+Chapitre II : Analyse et Conception	6
+1.	Introduction	6
+2.	Méthode Merise :	6
+3.	Le Rôle D’un système d’information :	6
+4.	Modèle Conceptuel de Données (MCD):	6
+5.	Modèles  Logique de Données (MLD):	7
+6.	Conclusion :	8
+Chapitre III : Réalisation et Mise En Œuvre	10
+1.	Introduction	10
+2.	Technologies de développement :	10
+2.1 Langages de programmation :	10
+2.2 Les Outils de Développement :	11
+3.	Réalisation du site web :	12
+3.1 Header	12
+3.2 Main Page	13
+3.3 Services
+3.4 Team
+3.5 Blog
+3.6 What Our Client Say
+3.7 Footer
+4.	Conclusion
+Conclusion Générale	
+
